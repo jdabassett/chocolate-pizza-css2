@@ -1,0 +1,52 @@
+icon icon-large" src="./images/logo.png" alt="fork and knife"/>
+      <div class="head-title-container">
+        <h2 class="head-title">Delicious</h2>
+        <p class="head-paragraph">THE BEST FOOD BLOG ON THE WEB</p>
+      </div>
+      <div class="head-icon-container">
+        <img class="icon icon-small facebook" src="./images/fb-icon.png" alt="facebook-icon"/>
+        <img class="icon icon-small twitter" src="./images/twit-icon.png" alt="twitter-icon"/>
+        <img class="icon icon-small google" src="./images/gp-icon.png" alt="google-icon"/>
+        <img class="icon icon-small instagram" src="./images/insta-icon.png" alt="instagram-icon"/>
+        <img class="icon icon-small youtube" src="./images/flic-icon.png" alt="flick-icon"/>
+        <img class="icon icon-small pinterest" src="./images/pint-icon.png" alt="pinterest-icon"/>
+        <img class="icon icon-small rss" src="./images/rss-icon.png" alt="rss-icon"/>
+        <img class="icon icon-small email" src="./images/mail-icon.png" alt="email-icon"/>
+      </div>
+      <hr class="large-divider">
+    </head>
+
+    <main>
+      
+      <h1 class="title">Chocolate Pizza</h1>
+      <h3 class="subtitle">POSTED IN 15 DEC 2013 / DESERTS</h3>
+      <div class="print-container">
+        <img class="icon icon-print" src="./images/print-icon.png" alt="print-icon"/>
+        <h3 class="print-text">PRINT</h3>
+      </div>
+      
+      <img class="main-image" src="./images/choco-pizza.png" alt="chocolate-pizza-image" width="300px"/>
+
+.paragraph-container
+.paragraph
+
+.card-container
+.card-image
+.ul-list
+.li 
+.checkmark
+.large-divider
+.author-image
+.author-title
+.author-paragraph">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        <button class="share-button">SHARE RECIPE</button>
+      </div>
+ 
+    </main>
+
+    <footer>
+      <div class="footer-divider-container">
+        <hr class="footer-divider">
+        <img class="icon footer-logo" src="./images/small-logo.png" alt="small-logo"/>
+      </div>
+      <p class="footer-paragraph
