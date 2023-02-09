@@ -2,34 +2,39 @@
 <html lang="en">
   <header>
     <title>Title</title>
-    <link href="index.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Noto+Serif&family=Oswald:wght@500&family=Patrick+Hand&family=Roboto&family=Yellowtail&display=swap" rel="stylesheet">
   </header>
   <body>
 
     <head>
-      <img class="icon icon-large" src="./images/logo.png" alt="fork and knife"/>
-      <div class="head-title-container">
-        <h2 class="head-title">Delicious</h2>
-        <p class="head-paragraph">THE BEST FOOD BLOG ON THE WEB</p>
+      <div class="head-container">
+        <img class="icon icon-large" src="./images/logo.png" alt="fork and knife"/>
+        <div class="head-title-container">
+          <h2 class="head-title">Delicious</h2>
+          <p class="head-paragraph">THE BEST FOOD BLOG ON THE WEB</p>
+        </div>
+        <div class="head-icon-container">
+          <img class="icon icon-small facebook" src="./images/fb-icon.png" alt="facebook-icon"/>
+          <img class="icon icon-small twitter" src="./images/twit-icon.png" alt="twitter-icon"/>
+          <img class="icon icon-small google" src="./images/gp-icon.png" alt="google-icon"/>
+          <img class="icon icon-small instagram" src="./images/insta-icon.png" alt="instagram-icon"/>
+          <img class="icon icon-small youtube" src="./images/flic-icon.png" alt="flick-icon"/>
+          <img class="icon icon-small pinterest" src="./images/pint-icon.png" alt="pinterest-icon"/>
+          <img class="icon icon-small rss" src="./images/rss-icon.png" alt="rss-icon"/>
+          <img class="icon icon-small email" src="./images/mail-icon.png" alt="email-icon"/>
+        </div>
+        <hr class="large-divider head-divider">
       </div>
-      <div class="head-icon-container">
-        <img class="icon icon-small facebook" src="./images/fb-icon.png" alt="facebook-icon"/>
-        <img class="icon icon-small twitter" src="./images/twit-icon.png" alt="twitter-icon"/>
-        <img class="icon icon-small google" src="./images/gp-icon.png" alt="google-icon"/>
-        <img class="icon icon-small instagram" src="./images/insta-icon.png" alt="instagram-icon"/>
-        <img class="icon icon-small youtube" src="./images/flic-icon.png" alt="flick-icon"/>
-        <img class="icon icon-small pinterest" src="./images/pint-icon.png" alt="pinterest-icon"/>
-        <img class="icon icon-small rss" src="./images/rss-icon.png" alt="rss-icon"/>
-        <img class="icon icon-small email" src="./images/mail-icon.png" alt="email-icon"/>
-      </div>
-      <hr class="large-divider">
     </head>
 
-    <main>
+    <main class="main-container">
       
       <h1 class="title">Chocolate Pizza</h1>
-      <h3 class="subtitle">POSTED IN 15 DEC 2013 / DESERTS</h3>
+      <h3 class="subtitle">POSTED IN 15 DEC 2013 / DESSERTS</h3>
       <div class="print-container">
         <img class="icon icon-print" src="./images/print-icon.png" alt="print-icon"/>
         <h3 class="print-text">PRINT</h3>
@@ -45,36 +50,42 @@
 
       <div class="card-container">
         <img class="card-image" src="./images/list-bg.png" alt="flashcard" width="300px"/>
-        <ul class="ul-list">
-          <li class="li">1 1/2 cups milk</li>
-          <li class="li">1/2 cup mascarpone</li>
-          <li class="li">1/2 tsp pink salt</li>
-          <li class="li">1 lb Black Mission Figs</li>
-          <li class="li">1/2 cup brown sugar</li>
-          <li class="li">2-4 tbsp water</li>
-          <li class="li checkmark">1 1/2 cups heavy cream</li>
-          <li class="li checkmark">1/3 granulated sugar</li>
-          <li class="li">2 egg yolks</li>
-          <li class="li">1 lemon, juiced</li>
-          <li class="li">2 tbsp butter</li>
-          <li class="li">1 cup honey roasted pecans, roughly chopped</li>
+        <ul class="ul-list left">
+          <li class="li"><input class="checkbox" type="checkbox"> 1 1/2 cups milk</input></li>
+          <li class="li"><input class="checkbox" type="checkbox"> 1/2 cup mascarpone</input></li>
+          <li class="li"><input class="checkbox" type="checkbox"> 1/2 tsp pink salt</input></li>
+          <li class="li"><input class="checkbox" type="checkbox"> 1 lb Black Mission Figs</input></li>
+          <li class="li"><input class="checkbox" type="checkbox"> 1/2 cup brown sugar</input></li>
+          <li class="li"><input class="checkbox" type="checkbox"> 2-4 tbsp water</input></li>
+          </ul>
+        <ul class="ul-list right">
+          <li class="li"><input class="checkbox" type="checkbox"> 1 1/2 cups heavy cream</input></li>
+          <li class="li checkmark"><input class="checkbox" type="checkbox" checked> 1/3 granulated sugar</input></li>
+          <li class="li checkmark"><input class="checkbox" type="checkbox" checked> 2 egg yolks</input></li>
+          <li class="li"><input class="checkbox" type="checkbox"> 1 lemon, juiced</input></li>
+          <li class="li"><input class="checkbox" type="checkbox"> 2 tbsp butter</input></li>
+          <li class="li"><input class="checkbox" type="checkbox"> 1 cup honey roasted pecans, roughly chopped</input></li>
         </ul>
       </div>
-      <hr class="large-divider">
+      <hr class="large-divider main-divider">
 
-      <div>
+      <div class="author-container">
         <img class="author-image" src="./images/van-pic.png" alt="Vanessa Stevenson Image" />
-        <h4 class="author-title">Vanessa Stevenson</h4>
-        <p class="author-paragraph">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        <div class="author-text-container">
+          <h4 class="author-title">Vanessa Stevenson</h4>
+          <p class="author-paragraph">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        </div>
         <button class="share-button">SHARE RECIPE</button>
       </div>
  
     </main>
 
-    <footer>
+    <footer class="footer-container">
       <div class="footer-divider-container">
-        <hr class="footer-divider">
-        <img class="icon footer-logo" src="./images/small-logo.png" alt="small-logo"/>
+        <div class="footer-divider"></div>
+        <div class="footer-logo-container">
+          <img class="icon footer-logo" src="./images/small-logo.png" alt="small-logo"/>
+        </div>
       </div>
       <p class="footer-paragraph">Delicious © 2013 • All Rights Reserved.<br>Proudly published with Ghost.</p>
     </footer>
