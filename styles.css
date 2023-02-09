@@ -140,7 +140,9 @@ main element
 .checkmark
 .large-divider
 .main-divider
+.author-container
 .author-image
+.author-text-container
 .author-title
   font-family: 'Noto Serif', serif;
 .author-paragraph
@@ -149,7 +151,7 @@ main element
 */
 
 .main-container {
-  outline:2px solid blue;
+  /* outline:2px solid blue; */
   width:700px;
   margin-left:auto;
   margin-right:auto;
@@ -193,6 +195,7 @@ main element
 .main-image {
   width:700px;
   height:475px;
+  filter:saturate(135%);
 }
 
 .paragraph {
@@ -201,6 +204,7 @@ main element
   text-indent:1.5em;
   font-size:0.95em;
   margin-top:2.1em;
+  font-weight:500;
 }
 
 .card-container {
@@ -245,15 +249,45 @@ main element
   margin-top:1.5em;
 }
 
-/* .author-image
-.author-title
-  font-family: 'Noto Serif', serif;
-.author-paragraph
-.share-button 
-  font-family: 'Carrois Gothic SC', sans-serif; */
-
+.author-container {
+  /* outline:2px solid red; */
+  padding-top:1em;
+  position:relative
+}
 .author-image {
   width:55px;
+  filter:saturate(160%);
+  display:inline-block;
+}
+.author-text-container {
+  /* outline:2px solid green; */
+  display:inline-block;
+  width:455px;
+  margin-left:0.7em;
+}
+.author-title {
+  font-family: 'Noto Serif Bold', serif;
+  font-size:1.15em;
+  color:#555657;
+}
+
+.author-paragraph {
+  font-family: 'Noto Serif', serif;
+  font-size:0.8em;
+  color:#757778;
+}
+.share-button {
+  font-family: 'Carrois Gothic SC', sans-serif;
+  background-color:var(--share-button-orange);
+  color:var(--background);
+  font-size:0.9em;
+  border:none;
+  width:150px;
+  height:45px;
+  display:inline-block;
+  position:relative;
+  top:-20px;
+  left:20px;
 }
 
 
@@ -262,6 +296,7 @@ footer element
 .footer-container
 .footer-divider-container
 .footer-divider
+.footer-logo-container
 .icon 
 .footer-logo
 .footer-paragraph 
@@ -269,5 +304,48 @@ footer element
   */
 
 .footer-container {
-  outline:2px solid green;
+  /* outline:2px solid green; */
+  width:700px;
+  margin-left:auto;
+  margin-right:auto;
+  height:125px;
+  padding-top:4.5em;
+  position:relative;
+}
+
+
+
+.footer-divider {
+  width:700px;
+  height:1px;
+  background-color:#cfd2d4;
+}
+
+.footer-logo-container {
+  /* outline:2px solid blue; */
+  position:relative;
+  width:32px;
+  height:32px;
+  background-color:var(--background);
+  top:-16px;
+  left:335px;
+  z-index:2;
+}
+
+.footer-logo {
+  /* outline:2px solid brown; */
+  width:24px;
+  position:relative;
+  top:4px;
+  left:4px;
+}
+
+
+
+.footer-paragraph {
+  font-family: 'Noto Serif', serif;
+  font-size:0.7em;
+  color:#cfd2d4;
+  font-weight:800;
+  text-align:center;
 }
